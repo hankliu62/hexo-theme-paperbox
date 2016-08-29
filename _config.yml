@@ -4,9 +4,7 @@ menu:
   Archives: /archives
   About: /about
 rss: /atom.xml
-github: https://github.com/myname
-logo_title: MyLogo
-blog_title: My Blog
+github: https://github.com/biluo62
 
 # Content
 excerpt_link: Read More
@@ -34,3 +32,19 @@ duoshuo_shortname:
 
 # Swiftype Search
 swiftype_key:
+
+# header cube
+cube_1: hankliu
+cube_2: L
+cube_3: X
+cube_4: P
+cube_5: C
+cube_6: Y
+
+# Author
+# Your biography and your job is editable in each languages files in `languages` folder
+author:
+    name: hankliu
+    desc: 不吃闲饭，不看冷脸；不掩己拙，不揭人短；不求人喜，不招人烦。
+    email: 397694072@qq.com
+    location: China

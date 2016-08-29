@@ -13,20 +13,27 @@
       </div>
     </nav>
     <div id="header-title">
-      <% if (theme.blog_title){ %>
+      <% if (theme.author && theme.author.name){ %>
         <h1 id="blog-title-wrap">
-          <a href="/" id="blog-title"><%= theme.blog_title %></a>
+          <a href="/" id="blog-title"><%= theme.author.name %></a>
         </h1>
+      <% } %>
+      <% if (theme.author && theme.author.desc) { %>
+        <h5 class="blog-subtitle-wrap"><%= theme.author.desc %></h5>
       <% } %>
     </div>
     <div id="contenedor">
       <ul class="cube">
-        <li class="cara"><%= theme.logo_title %></li>
-        <li class="cara"></li>
-        <li class="cara"></li>
-        <li class="cara"></li>
-        <li class="cara"></li>
-        <li class="cara"></li>
+        <li class="cara"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="100" width="100" viewBox="-50 -50 200 200">
+          <circle cx="50" cy="50" r="45" stroke-width="5" stroke="black" stroke-opacity="0.5" fill-opacity="0"></circle>
+          <rect x="47.5" y="27.5" width="5" height="25" rx="2.5" ry="2.5" fill="black" fill-opacity="0.5" transform="rotate(330 50 50)"></rect>
+          <rect x="48.5" y="16.5" width="3" height="35" rx="1.5" ry="1.5" fill="black" fill-opacity="0.5"></rect>
+        </svg></li>
+        <li class="cara"><%= theme.cube_2 %></li>
+        <li class="cara"><%= theme.cube_3 %></li>
+        <li class="cara"><%= theme.cube_4 %></li>
+        <li class="cara"><%= theme.cube_5 %></li>
+        <li class="cara"><%= theme.cube_6 %></li>
       </ul>
     </div>
     <nav id="main-nav">
