@@ -21,7 +21,7 @@ widgets:
 # Miscellaneous
 wx_block: false
 google_analytics:
-favicon:
+favicon: /favicon.jpg
 twitter:
 google_plus:
 fb_admins:
