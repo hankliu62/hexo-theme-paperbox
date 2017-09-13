@@ -21,7 +21,7 @@ widgets:
 # Miscellaneous
 wx_block: false
 google_analytics:
-favicon: /favicon.jpg
+favicon: http://oiq00n80p.bkt.clouddn.com/favicons_2_16.png
 twitter:
 google_plus:
 fb_admins:
@@ -44,7 +44,7 @@ cube_6: Y
 # Author
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-    name: hankliu
-    desc: 不吃闲饭，不看冷脸；不掩己拙，不揭人短；不求人喜，不招人烦。
-    email: 397694072@qq.com
-    location: China
+  name: hankliu
+  desc: 我们在梦里走过许多路，醒来后却发现自己还在床上。
+  email: 397694072@qq.com
+  location: China
