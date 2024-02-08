@@ -1,5 +1,7 @@
 <header id="header">
-  <div id="banner"></div>
+  <div id="banner">
+    <div id="banner-mask"></div>
+  </div>
   <div id="header-outer" class="outer">
     <nav id="upper-nav" class="inner">
       <a id="main-nav-toggle" class="nav-icon"></a>
@@ -13,9 +15,9 @@
       </div>
     </nav>
     <div id="header-title">
-      <% if (theme.author && theme.author.name){ %>
+      <% if (theme.author && theme.author.title){ %>
         <h1 id="blog-title-wrap">
-          <a href="/" id="blog-title"><%= theme.author.name %></a>
+          <a href="/" id="blog-title"><%= theme.author.title %></a>
         </h1>
       <% } %>
       <% if (theme.author && theme.author.desc) { %>
@@ -26,8 +28,8 @@
       <ul class="cube">
         <li class="cara"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="100" width="100" viewBox="-50 -50 200 200">
           <circle cx="50" cy="50" r="45" stroke-width="5" stroke="black" stroke-opacity="0.5" fill-opacity="0"></circle>
-          <rect x="47.5" y="27.5" width="5" height="25" rx="2.5" ry="2.5" fill="black" fill-opacity="0.5" transform="rotate(330 50 50)"></rect>
-          <rect x="48.5" y="16.5" width="3" height="35" rx="1.5" ry="1.5" fill="black" fill-opacity="0.5"></rect>
+          <rect id="clockwise" x="47.5" y="27.5" width="5" height="25" rx="2.5" ry="2.5" fill="black" fill-opacity="0.5" transform="rotate(330 50 50)"></rect>
+          <rect id="minute" x="48.5" y="16.5" width="3" height="35" rx="1.5" ry="1.5" fill="black" fill-opacity="0.5"></rect>
         </svg></li>
         <li class="cara"><%= theme.cube_2 %></li>
         <li class="cara"><%= theme.cube_3 %></li>
@@ -40,7 +42,6 @@
       <% for (var i in theme.menu){ %>
         <a class="main-nav-link" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
       <% } %>
-      <a class="main-nav-link st-search-show-outputs">Search</a>
     </nav>
   </div>
 </header>

@@ -1,10 +1,11 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
-  About: /about
-rss: /atom.xml
-github: https://github.com/biluo62
+  主页: /
+  文章: /archives
+  小工具: /toolbox-frontend
+  小简介: /resume
+rss: # /atom.xml
+github: https://github.com/hankliu62
 
 # Content
 excerpt_link: Read More
@@ -21,7 +22,7 @@ widgets:
 # Miscellaneous
 wx_block: false
 google_analytics:
-favicon: http://oiq00n80p.bkt.clouddn.com/favicons_2_16.png
+favicon: /img/favicon.ico
 twitter:
 google_plus:
 fb_admins:
@@ -34,17 +35,18 @@ duoshuo_shortname:
 swiftype_key:
 
 # header cube
-cube_1: hankliu
-cube_2: L
+cube_1: HankLiu
+cube_2: P
 cube_3: X
-cube_4: P
+cube_4: L
 cube_5: C
 cube_6: Y
 
 # Author
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-  name: hankliu
-  desc: 我们在梦里走过许多路，醒来后却发现自己还在床上。
+  name: HankLiu
+  title: HankLiu的博客小屋
+  desc: 努力去听风的声音，不必在意风的方向。
   email: 397694072@qq.com
   location: China

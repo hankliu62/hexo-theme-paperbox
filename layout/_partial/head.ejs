@@ -29,7 +29,7 @@
   <% if (theme.favicon){ %>
     <link rel="icon" href="<%- theme.favicon %>" sizes="16x16">
   <% } %>
-  <%- css('css/style') %>
+  <link rel="stylesheet" href="/css/style.css?t=<%= config.version %>">
   <% if (config.highlight.enable){ %>
     <link href="//fonts.useso.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   <% } %>
