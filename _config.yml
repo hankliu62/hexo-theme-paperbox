@@ -2,8 +2,9 @@
 menu:
   主页: /
   文章: /archives
-  小工具: /toolbox-frontend
+  小工具: /toolkit
   小简介: /resume
+  小关于: /about
 rss: # /atom.xml
 github: https://github.com/hankliu62
 
